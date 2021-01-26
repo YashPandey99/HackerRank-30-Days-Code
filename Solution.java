@@ -3,24 +3,29 @@ import java.util.*;
 import java.text.*;
 import java.math.*;
 import java.util.regex.*;
-public class Solution {
-	public static void main(String[] args) {
-        // Create a Scanner object to read input from stdin.
-		Scanner scan = new Scanner(System.in); 
-		
-		// Read a full line of input from stdin and save it to our variable, inputString.
-		String inputString = scan.nextLine(); 
 
-		// Close the scanner object, because we've finished reading 
-        // all of the input from stdin needed for this challenge.
-		scan.close(); 
-      
-		// Print a string literal saying "Hello, World." to stdout.
-		System.out.println("Hello, World.");
-		System.out.println(inputString);
+public class Solution {
+	
+    public static void main(String[] args) {
+        int i = 4;
+        double d = 4.0;
+        String s = "HackerRank ";
+		
+        Scanner scan = new Scanner(System.in);
+
+        int x;
+        double y;
         
+        x=scan.nextInt();
+        y=scan.nextDouble();
+        scan.nextLine();
+        String s2 = scan.nextLine();
+       
+       
+        System.out.println(x+i);
+        System.out.println(y+d);
+        System.out.println(s + s2);
         
-        
-      
-	}
+        scan.close();
+    }
 }
